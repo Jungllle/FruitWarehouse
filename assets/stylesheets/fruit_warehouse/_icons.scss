@@ -1,0 +1,596 @@
+/* Font Awesome uses the Unicode Private Use Area (PUA) to ensure screen
+   readers do not read off random characters that represent icons */
+
+.#{$fruit-css-prefix}-glass:before { content: $fruit-var-glass; }
+.#{$fruit-css-prefix}-music:before { content: $fruit-var-music; }
+.#{$fruit-css-prefix}-search:before { content: $fruit-var-search; }
+.#{$fruit-css-prefix}-envelope-o:before { content: $fruit-var-envelope-o; }
+.#{$fruit-css-prefix}-heart:before { content: $fruit-var-heart; }
+.#{$fruit-css-prefix}-star:before { content: $fruit-var-star; }
+.#{$fruit-css-prefix}-star-o:before { content: $fruit-var-star-o; }
+.#{$fruit-css-prefix}-user:before { content: $fruit-var-user; }
+.#{$fruit-css-prefix}-film:before { content: $fruit-var-film; }
+.#{$fruit-css-prefix}-th-large:before { content: $fruit-var-th-large; }
+.#{$fruit-css-prefix}-th:before { content: $fruit-var-th; }
+.#{$fruit-css-prefix}-th-list:before { content: $fruit-var-th-list; }
+.#{$fruit-css-prefix}-check:before { content: $fruit-var-check; }
+.#{$fruit-css-prefix}-remove:before,
+.#{$fruit-css-prefix}-close:before,
+.#{$fruit-css-prefix}-times:before { content: $fruit-var-times; }
+.#{$fruit-css-prefix}-search-plus:before { content: $fruit-var-search-plus; }
+.#{$fruit-css-prefix}-search-minus:before { content: $fruit-var-search-minus; }
+.#{$fruit-css-prefix}-power-off:before { content: $fruit-var-power-off; }
+.#{$fruit-css-prefix}-signal:before { content: $fruit-var-signal; }
+.#{$fruit-css-prefix}-gear:before,
+.#{$fruit-css-prefix}-cog:before { content: $fruit-var-cog; }
+.#{$fruit-css-prefix}-trash-o:before { content: $fruit-var-trash-o; }
+.#{$fruit-css-prefix}-home:before { content: $fruit-var-home; }
+.#{$fruit-css-prefix}-file-o:before { content: $fruit-var-file-o; }
+.#{$fruit-css-prefix}-clock-o:before { content: $fruit-var-clock-o; }
+.#{$fruit-css-prefix}-road:before { content: $fruit-var-road; }
+.#{$fruit-css-prefix}-download:before { content: $fruit-var-download; }
+.#{$fruit-css-prefix}-arrow-circle-o-down:before { content: $fruit-var-arrow-circle-o-down; }
+.#{$fruit-css-prefix}-arrow-circle-o-up:before { content: $fruit-var-arrow-circle-o-up; }
+.#{$fruit-css-prefix}-inbox:before { content: $fruit-var-inbox; }
+.#{$fruit-css-prefix}-play-circle-o:before { content: $fruit-var-play-circle-o; }
+.#{$fruit-css-prefix}-rotate-right:before,
+.#{$fruit-css-prefix}-repeat:before { content: $fruit-var-repeat; }
+.#{$fruit-css-prefix}-refresh:before { content: $fruit-var-refresh; }
+.#{$fruit-css-prefix}-list-alt:before { content: $fruit-var-list-alt; }
+.#{$fruit-css-prefix}-lock:before { content: $fruit-var-lock; }
+.#{$fruit-css-prefix}-flag:before { content: $fruit-var-flag; }
+.#{$fruit-css-prefix}-headphones:before { content: $fruit-var-headphones; }
+.#{$fruit-css-prefix}-volume-off:before { content: $fruit-var-volume-off; }
+.#{$fruit-css-prefix}-volume-down:before { content: $fruit-var-volume-down; }
+.#{$fruit-css-prefix}-volume-up:before { content: $fruit-var-volume-up; }
+.#{$fruit-css-prefix}-qrcode:before { content: $fruit-var-qrcode; }
+.#{$fruit-css-prefix}-barcode:before { content: $fruit-var-barcode; }
+.#{$fruit-css-prefix}-tag:before { content: $fruit-var-tag; }
+.#{$fruit-css-prefix}-tags:before { content: $fruit-var-tags; }
+.#{$fruit-css-prefix}-book:before { content: $fruit-var-book; }
+.#{$fruit-css-prefix}-bookmark:before { content: $fruit-var-bookmark; }
+.#{$fruit-css-prefix}-print:before { content: $fruit-var-print; }
+.#{$fruit-css-prefix}-camera:before { content: $fruit-var-camera; }
+.#{$fruit-css-prefix}-font:before { content: $fruit-var-font; }
+.#{$fruit-css-prefix}-bold:before { content: $fruit-var-bold; }
+.#{$fruit-css-prefix}-italic:before { content: $fruit-var-italic; }
+.#{$fruit-css-prefix}-text-height:before { content: $fruit-var-text-height; }
+.#{$fruit-css-prefix}-text-width:before { content: $fruit-var-text-width; }
+.#{$fruit-css-prefix}-align-left:before { content: $fruit-var-align-left; }
+.#{$fruit-css-prefix}-align-center:before { content: $fruit-var-align-center; }
+.#{$fruit-css-prefix}-align-right:before { content: $fruit-var-align-right; }
+.#{$fruit-css-prefix}-align-justify:before { content: $fruit-var-align-justify; }
+.#{$fruit-css-prefix}-list:before { content: $fruit-var-list; }
+.#{$fruit-css-prefix}-dedent:before,
+.#{$fruit-css-prefix}-outdent:before { content: $fruit-var-outdent; }
+.#{$fruit-css-prefix}-indent:before { content: $fruit-var-indent; }
+.#{$fruit-css-prefix}-video-camera:before { content: $fruit-var-video-camera; }
+.#{$fruit-css-prefix}-photo:before,
+.#{$fruit-css-prefix}-image:before,
+.#{$fruit-css-prefix}-picture-o:before { content: $fruit-var-picture-o; }
+.#{$fruit-css-prefix}-pencil:before { content: $fruit-var-pencil; }
+.#{$fruit-css-prefix}-map-marker:before { content: $fruit-var-map-marker; }
+.#{$fruit-css-prefix}-adjust:before { content: $fruit-var-adjust; }
+.#{$fruit-css-prefix}-tint:before { content: $fruit-var-tint; }
+.#{$fruit-css-prefix}-edit:before,
+.#{$fruit-css-prefix}-pencil-square-o:before { content: $fruit-var-pencil-square-o; }
+.#{$fruit-css-prefix}-share-square-o:before { content: $fruit-var-share-square-o; }
+.#{$fruit-css-prefix}-check-square-o:before { content: $fruit-var-check-square-o; }
+.#{$fruit-css-prefix}-arrows:before { content: $fruit-var-arrows; }
+.#{$fruit-css-prefix}-step-backward:before { content: $fruit-var-step-backward; }
+.#{$fruit-css-prefix}-fast-backward:before { content: $fruit-var-fast-backward; }
+.#{$fruit-css-prefix}-backward:before { content: $fruit-var-backward; }
+.#{$fruit-css-prefix}-play:before { content: $fruit-var-play; }
+.#{$fruit-css-prefix}-pause:before { content: $fruit-var-pause; }
+.#{$fruit-css-prefix}-stop:before { content: $fruit-var-stop; }
+.#{$fruit-css-prefix}-forward:before { content: $fruit-var-forward; }
+.#{$fruit-css-prefix}-fast-forward:before { content: $fruit-var-fast-forward; }
+.#{$fruit-css-prefix}-step-forward:before { content: $fruit-var-step-forward; }
+.#{$fruit-css-prefix}-eject:before { content: $fruit-var-eject; }
+.#{$fruit-css-prefix}-chevron-left:before { content: $fruit-var-chevron-left; }
+.#{$fruit-css-prefix}-chevron-right:before { content: $fruit-var-chevron-right; }
+.#{$fruit-css-prefix}-plus-circle:before { content: $fruit-var-plus-circle; }
+.#{$fruit-css-prefix}-minus-circle:before { content: $fruit-var-minus-circle; }
+.#{$fruit-css-prefix}-times-circle:before { content: $fruit-var-times-circle; }
+.#{$fruit-css-prefix}-check-circle:before { content: $fruit-var-check-circle; }
+.#{$fruit-css-prefix}-question-circle:before { content: $fruit-var-question-circle; }
+.#{$fruit-css-prefix}-info-circle:before { content: $fruit-var-info-circle; }
+.#{$fruit-css-prefix}-crosshairs:before { content: $fruit-var-crosshairs; }
+.#{$fruit-css-prefix}-times-circle-o:before { content: $fruit-var-times-circle-o; }
+.#{$fruit-css-prefix}-check-circle-o:before { content: $fruit-var-check-circle-o; }
+.#{$fruit-css-prefix}-ban:before { content: $fruit-var-ban; }
+.#{$fruit-css-prefix}-arrow-left:before { content: $fruit-var-arrow-left; }
+.#{$fruit-css-prefix}-arrow-right:before { content: $fruit-var-arrow-right; }
+.#{$fruit-css-prefix}-arrow-up:before { content: $fruit-var-arrow-up; }
+.#{$fruit-css-prefix}-arrow-down:before { content: $fruit-var-arrow-down; }
+.#{$fruit-css-prefix}-mail-forward:before,
+.#{$fruit-css-prefix}-share:before { content: $fruit-var-share; }
+.#{$fruit-css-prefix}-expand:before { content: $fruit-var-expand; }
+.#{$fruit-css-prefix}-compress:before { content: $fruit-var-compress; }
+.#{$fruit-css-prefix}-plus:before { content: $fruit-var-plus; }
+.#{$fruit-css-prefix}-minus:before { content: $fruit-var-minus; }
+.#{$fruit-css-prefix}-asterisk:before { content: $fruit-var-asterisk; }
+.#{$fruit-css-prefix}-exclamation-circle:before { content: $fruit-var-exclamation-circle; }
+.#{$fruit-css-prefix}-gift:before { content: $fruit-var-gift; }
+.#{$fruit-css-prefix}-leaf:before { content: $fruit-var-leaf; }
+.#{$fruit-css-prefix}-fire:before { content: $fruit-var-fire; }
+.#{$fruit-css-prefix}-eye:before { content: $fruit-var-eye; }
+.#{$fruit-css-prefix}-eye-slash:before { content: $fruit-var-eye-slash; }
+.#{$fruit-css-prefix}-warning:before,
+.#{$fruit-css-prefix}-exclamation-triangle:before { content: $fruit-var-exclamation-triangle; }
+.#{$fruit-css-prefix}-plane:before { content: $fruit-var-plane; }
+.#{$fruit-css-prefix}-calendar:before { content: $fruit-var-calendar; }
+.#{$fruit-css-prefix}-random:before { content: $fruit-var-random; }
+.#{$fruit-css-prefix}-comment:before { content: $fruit-var-comment; }
+.#{$fruit-css-prefix}-magnet:before { content: $fruit-var-magnet; }
+.#{$fruit-css-prefix}-chevron-up:before { content: $fruit-var-chevron-up; }
+.#{$fruit-css-prefix}-chevron-down:before { content: $fruit-var-chevron-down; }
+.#{$fruit-css-prefix}-retweet:before { content: $fruit-var-retweet; }
+.#{$fruit-css-prefix}-shopping-cart:before { content: $fruit-var-shopping-cart; }
+.#{$fruit-css-prefix}-folder:before { content: $fruit-var-folder; }
+.#{$fruit-css-prefix}-folder-open:before { content: $fruit-var-folder-open; }
+.#{$fruit-css-prefix}-arrows-v:before { content: $fruit-var-arrows-v; }
+.#{$fruit-css-prefix}-arrows-h:before { content: $fruit-var-arrows-h; }
+.#{$fruit-css-prefix}-bar-chart-o:before,
+.#{$fruit-css-prefix}-bar-chart:before { content: $fruit-var-bar-chart; }
+.#{$fruit-css-prefix}-twitter-square:before { content: $fruit-var-twitter-square; }
+.#{$fruit-css-prefix}-facebook-square:before { content: $fruit-var-facebook-square; }
+.#{$fruit-css-prefix}-camera-retro:before { content: $fruit-var-camera-retro; }
+.#{$fruit-css-prefix}-key:before { content: $fruit-var-key; }
+.#{$fruit-css-prefix}-gears:before,
+.#{$fruit-css-prefix}-cogs:before { content: $fruit-var-cogs; }
+.#{$fruit-css-prefix}-comments:before { content: $fruit-var-comments; }
+.#{$fruit-css-prefix}-thumbs-o-up:before { content: $fruit-var-thumbs-o-up; }
+.#{$fruit-css-prefix}-thumbs-o-down:before { content: $fruit-var-thumbs-o-down; }
+.#{$fruit-css-prefix}-star-half:before { content: $fruit-var-star-half; }
+.#{$fruit-css-prefix}-heart-o:before { content: $fruit-var-heart-o; }
+.#{$fruit-css-prefix}-sign-out:before { content: $fruit-var-sign-out; }
+.#{$fruit-css-prefix}-linkedin-square:before { content: $fruit-var-linkedin-square; }
+.#{$fruit-css-prefix}-thumb-tack:before { content: $fruit-var-thumb-tack; }
+.#{$fruit-css-prefix}-external-link:before { content: $fruit-var-external-link; }
+.#{$fruit-css-prefix}-sign-in:before { content: $fruit-var-sign-in; }
+.#{$fruit-css-prefix}-trophy:before { content: $fruit-var-trophy; }
+.#{$fruit-css-prefix}-github-square:before { content: $fruit-var-github-square; }
+.#{$fruit-css-prefix}-upload:before { content: $fruit-var-upload; }
+.#{$fruit-css-prefix}-lemon-o:before { content: $fruit-var-lemon-o; }
+.#{$fruit-css-prefix}-phone:before { content: $fruit-var-phone; }
+.#{$fruit-css-prefix}-square-o:before { content: $fruit-var-square-o; }
+.#{$fruit-css-prefix}-bookmark-o:before { content: $fruit-var-bookmark-o; }
+.#{$fruit-css-prefix}-phone-square:before { content: $fruit-var-phone-square; }
+.#{$fruit-css-prefix}-twitter:before { content: $fruit-var-twitter; }
+.#{$fruit-css-prefix}-facebook-f:before,
+.#{$fruit-css-prefix}-facebook:before { content: $fruit-var-facebook; }
+.#{$fruit-css-prefix}-github:before { content: $fruit-var-github; }
+.#{$fruit-css-prefix}-unlock:before { content: $fruit-var-unlock; }
+.#{$fruit-css-prefix}-credit-card:before { content: $fruit-var-credit-card; }
+.#{$fruit-css-prefix}-rss:before { content: $fruit-var-rss; }
+.#{$fruit-css-prefix}-hdd-o:before { content: $fruit-var-hdd-o; }
+.#{$fruit-css-prefix}-bullhorn:before { content: $fruit-var-bullhorn; }
+.#{$fruit-css-prefix}-bell:before { content: $fruit-var-bell; }
+.#{$fruit-css-prefix}-certificate:before { content: $fruit-var-certificate; }
+.#{$fruit-css-prefix}-hand-o-right:before { content: $fruit-var-hand-o-right; }
+.#{$fruit-css-prefix}-hand-o-left:before { content: $fruit-var-hand-o-left; }
+.#{$fruit-css-prefix}-hand-o-up:before { content: $fruit-var-hand-o-up; }
+.#{$fruit-css-prefix}-hand-o-down:before { content: $fruit-var-hand-o-down; }
+.#{$fruit-css-prefix}-arrow-circle-left:before { content: $fruit-var-arrow-circle-left; }
+.#{$fruit-css-prefix}-arrow-circle-right:before { content: $fruit-var-arrow-circle-right; }
+.#{$fruit-css-prefix}-arrow-circle-up:before { content: $fruit-var-arrow-circle-up; }
+.#{$fruit-css-prefix}-arrow-circle-down:before { content: $fruit-var-arrow-circle-down; }
+.#{$fruit-css-prefix}-globe:before { content: $fruit-var-globe; }
+.#{$fruit-css-prefix}-wrench:before { content: $fruit-var-wrench; }
+.#{$fruit-css-prefix}-tasks:before { content: $fruit-var-tasks; }
+.#{$fruit-css-prefix}-filter:before { content: $fruit-var-filter; }
+.#{$fruit-css-prefix}-briefcase:before { content: $fruit-var-briefcase; }
+.#{$fruit-css-prefix}-arrows-alt:before { content: $fruit-var-arrows-alt; }
+.#{$fruit-css-prefix}-group:before,
+.#{$fruit-css-prefix}-users:before { content: $fruit-var-users; }
+.#{$fruit-css-prefix}-chain:before,
+.#{$fruit-css-prefix}-link:before { content: $fruit-var-link; }
+.#{$fruit-css-prefix}-cloud:before { content: $fruit-var-cloud; }
+.#{$fruit-css-prefix}-flask:before { content: $fruit-var-flask; }
+.#{$fruit-css-prefix}-cut:before,
+.#{$fruit-css-prefix}-scissors:before { content: $fruit-var-scissors; }
+.#{$fruit-css-prefix}-copy:before,
+.#{$fruit-css-prefix}-files-o:before { content: $fruit-var-files-o; }
+.#{$fruit-css-prefix}-paperclip:before { content: $fruit-var-paperclip; }
+.#{$fruit-css-prefix}-save:before,
+.#{$fruit-css-prefix}-floppy-o:before { content: $fruit-var-floppy-o; }
+.#{$fruit-css-prefix}-square:before { content: $fruit-var-square; }
+.#{$fruit-css-prefix}-navicon:before,
+.#{$fruit-css-prefix}-reorder:before,
+.#{$fruit-css-prefix}-bars:before { content: $fruit-var-bars; }
+.#{$fruit-css-prefix}-list-ul:before { content: $fruit-var-list-ul; }
+.#{$fruit-css-prefix}-list-ol:before { content: $fruit-var-list-ol; }
+.#{$fruit-css-prefix}-strikethrough:before { content: $fruit-var-strikethrough; }
+.#{$fruit-css-prefix}-underline:before { content: $fruit-var-underline; }
+.#{$fruit-css-prefix}-table:before { content: $fruit-var-table; }
+.#{$fruit-css-prefix}-magic:before { content: $fruit-var-magic; }
+.#{$fruit-css-prefix}-truck:before { content: $fruit-var-truck; }
+.#{$fruit-css-prefix}-pinterest:before { content: $fruit-var-pinterest; }
+.#{$fruit-css-prefix}-pinterest-square:before { content: $fruit-var-pinterest-square; }
+.#{$fruit-css-prefix}-google-plus-square:before { content: $fruit-var-google-plus-square; }
+.#{$fruit-css-prefix}-google-plus:before { content: $fruit-var-google-plus; }
+.#{$fruit-css-prefix}-money:before { content: $fruit-var-money; }
+.#{$fruit-css-prefix}-caret-down:before { content: $fruit-var-caret-down; }
+.#{$fruit-css-prefix}-caret-up:before { content: $fruit-var-caret-up; }
+.#{$fruit-css-prefix}-caret-left:before { content: $fruit-var-caret-left; }
+.#{$fruit-css-prefix}-caret-right:before { content: $fruit-var-caret-right; }
+.#{$fruit-css-prefix}-columns:before { content: $fruit-var-columns; }
+.#{$fruit-css-prefix}-unsorted:before,
+.#{$fruit-css-prefix}-sort:before { content: $fruit-var-sort; }
+.#{$fruit-css-prefix}-sort-down:before,
+.#{$fruit-css-prefix}-sort-desc:before { content: $fruit-var-sort-desc; }
+.#{$fruit-css-prefix}-sort-up:before,
+.#{$fruit-css-prefix}-sort-asc:before { content: $fruit-var-sort-asc; }
+.#{$fruit-css-prefix}-envelope:before { content: $fruit-var-envelope; }
+.#{$fruit-css-prefix}-linkedin:before { content: $fruit-var-linkedin; }
+.#{$fruit-css-prefix}-rotate-left:before,
+.#{$fruit-css-prefix}-undo:before { content: $fruit-var-undo; }
+.#{$fruit-css-prefix}-legal:before,
+.#{$fruit-css-prefix}-gavel:before { content: $fruit-var-gavel; }
+.#{$fruit-css-prefix}-dashboard:before,
+.#{$fruit-css-prefix}-tachometer:before { content: $fruit-var-tachometer; }
+.#{$fruit-css-prefix}-comment-o:before { content: $fruit-var-comment-o; }
+.#{$fruit-css-prefix}-comments-o:before { content: $fruit-var-comments-o; }
+.#{$fruit-css-prefix}-flash:before,
+.#{$fruit-css-prefix}-bolt:before { content: $fruit-var-bolt; }
+.#{$fruit-css-prefix}-sitemap:before { content: $fruit-var-sitemap; }
+.#{$fruit-css-prefix}-umbrella:before { content: $fruit-var-umbrella; }
+.#{$fruit-css-prefix}-paste:before,
+.#{$fruit-css-prefix}-clipboard:before { content: $fruit-var-clipboard; }
+.#{$fruit-css-prefix}-lightbulb-o:before { content: $fruit-var-lightbulb-o; }
+.#{$fruit-css-prefix}-exchange:before { content: $fruit-var-exchange; }
+.#{$fruit-css-prefix}-cloud-download:before { content: $fruit-var-cloud-download; }
+.#{$fruit-css-prefix}-cloud-upload:before { content: $fruit-var-cloud-upload; }
+.#{$fruit-css-prefix}-user-md:before { content: $fruit-var-user-md; }
+.#{$fruit-css-prefix}-stethoscope:before { content: $fruit-var-stethoscope; }
+.#{$fruit-css-prefix}-suitcase:before { content: $fruit-var-suitcase; }
+.#{$fruit-css-prefix}-bell-o:before { content: $fruit-var-bell-o; }
+.#{$fruit-css-prefix}-coffee:before { content: $fruit-var-coffee; }
+.#{$fruit-css-prefix}-cutlery:before { content: $fruit-var-cutlery; }
+.#{$fruit-css-prefix}-file-text-o:before { content: $fruit-var-file-text-o; }
+.#{$fruit-css-prefix}-building-o:before { content: $fruit-var-building-o; }
+.#{$fruit-css-prefix}-hospital-o:before { content: $fruit-var-hospital-o; }
+.#{$fruit-css-prefix}-ambulance:before { content: $fruit-var-ambulance; }
+.#{$fruit-css-prefix}-medkit:before { content: $fruit-var-medkit; }
+.#{$fruit-css-prefix}-fighter-jet:before { content: $fruit-var-fighter-jet; }
+.#{$fruit-css-prefix}-beer:before { content: $fruit-var-beer; }
+.#{$fruit-css-prefix}-h-square:before { content: $fruit-var-h-square; }
+.#{$fruit-css-prefix}-plus-square:before { content: $fruit-var-plus-square; }
+.#{$fruit-css-prefix}-angle-double-left:before { content: $fruit-var-angle-double-left; }
+.#{$fruit-css-prefix}-angle-double-right:before { content: $fruit-var-angle-double-right; }
+.#{$fruit-css-prefix}-angle-double-up:before { content: $fruit-var-angle-double-up; }
+.#{$fruit-css-prefix}-angle-double-down:before { content: $fruit-var-angle-double-down; }
+.#{$fruit-css-prefix}-angle-left:before { content: $fruit-var-angle-left; }
+.#{$fruit-css-prefix}-angle-right:before { content: $fruit-var-angle-right; }
+.#{$fruit-css-prefix}-angle-up:before { content: $fruit-var-angle-up; }
+.#{$fruit-css-prefix}-angle-down:before { content: $fruit-var-angle-down; }
+.#{$fruit-css-prefix}-desktop:before { content: $fruit-var-desktop; }
+.#{$fruit-css-prefix}-laptop:before { content: $fruit-var-laptop; }
+.#{$fruit-css-prefix}-tablet:before { content: $fruit-var-tablet; }
+.#{$fruit-css-prefix}-mobile-phone:before,
+.#{$fruit-css-prefix}-mobile:before { content: $fruit-var-mobile; }
+.#{$fruit-css-prefix}-circle-o:before { content: $fruit-var-circle-o; }
+.#{$fruit-css-prefix}-quote-left:before { content: $fruit-var-quote-left; }
+.#{$fruit-css-prefix}-quote-right:before { content: $fruit-var-quote-right; }
+.#{$fruit-css-prefix}-spinner:before { content: $fruit-var-spinner; }
+.#{$fruit-css-prefix}-circle:before { content: $fruit-var-circle; }
+.#{$fruit-css-prefix}-mail-reply:before,
+.#{$fruit-css-prefix}-reply:before { content: $fruit-var-reply; }
+.#{$fruit-css-prefix}-github-alt:before { content: $fruit-var-github-alt; }
+.#{$fruit-css-prefix}-folder-o:before { content: $fruit-var-folder-o; }
+.#{$fruit-css-prefix}-folder-open-o:before { content: $fruit-var-folder-open-o; }
+.#{$fruit-css-prefix}-smile-o:before { content: $fruit-var-smile-o; }
+.#{$fruit-css-prefix}-frown-o:before { content: $fruit-var-frown-o; }
+.#{$fruit-css-prefix}-meh-o:before { content: $fruit-var-meh-o; }
+.#{$fruit-css-prefix}-gamepad:before { content: $fruit-var-gamepad; }
+.#{$fruit-css-prefix}-keyboard-o:before { content: $fruit-var-keyboard-o; }
+.#{$fruit-css-prefix}-flag-o:before { content: $fruit-var-flag-o; }
+.#{$fruit-css-prefix}-flag-checkered:before { content: $fruit-var-flag-checkered; }
+.#{$fruit-css-prefix}-terminal:before { content: $fruit-var-terminal; }
+.#{$fruit-css-prefix}-code:before { content: $fruit-var-code; }
+.#{$fruit-css-prefix}-mail-reply-all:before,
+.#{$fruit-css-prefix}-reply-all:before { content: $fruit-var-reply-all; }
+.#{$fruit-css-prefix}-star-half-empty:before,
+.#{$fruit-css-prefix}-star-half-full:before,
+.#{$fruit-css-prefix}-star-half-o:before { content: $fruit-var-star-half-o; }
+.#{$fruit-css-prefix}-location-arrow:before { content: $fruit-var-location-arrow; }
+.#{$fruit-css-prefix}-crop:before { content: $fruit-var-crop; }
+.#{$fruit-css-prefix}-code-fork:before { content: $fruit-var-code-fork; }
+.#{$fruit-css-prefix}-unlink:before,
+.#{$fruit-css-prefix}-chain-broken:before { content: $fruit-var-chain-broken; }
+.#{$fruit-css-prefix}-question:before { content: $fruit-var-question; }
+.#{$fruit-css-prefix}-info:before { content: $fruit-var-info; }
+.#{$fruit-css-prefix}-exclamation:before { content: $fruit-var-exclamation; }
+.#{$fruit-css-prefix}-superscript:before { content: $fruit-var-superscript; }
+.#{$fruit-css-prefix}-subscript:before { content: $fruit-var-subscript; }
+.#{$fruit-css-prefix}-eraser:before { content: $fruit-var-eraser; }
+.#{$fruit-css-prefix}-puzzle-piece:before { content: $fruit-var-puzzle-piece; }
+.#{$fruit-css-prefix}-microphone:before { content: $fruit-var-microphone; }
+.#{$fruit-css-prefix}-microphone-slash:before { content: $fruit-var-microphone-slash; }
+.#{$fruit-css-prefix}-shield:before { content: $fruit-var-shield; }
+.#{$fruit-css-prefix}-calendar-o:before { content: $fruit-var-calendar-o; }
+.#{$fruit-css-prefix}-fire-extinguisher:before { content: $fruit-var-fire-extinguisher; }
+.#{$fruit-css-prefix}-rocket:before { content: $fruit-var-rocket; }
+.#{$fruit-css-prefix}-maxcdn:before { content: $fruit-var-maxcdn; }
+.#{$fruit-css-prefix}-chevron-circle-left:before { content: $fruit-var-chevron-circle-left; }
+.#{$fruit-css-prefix}-chevron-circle-right:before { content: $fruit-var-chevron-circle-right; }
+.#{$fruit-css-prefix}-chevron-circle-up:before { content: $fruit-var-chevron-circle-up; }
+.#{$fruit-css-prefix}-chevron-circle-down:before { content: $fruit-var-chevron-circle-down; }
+.#{$fruit-css-prefix}-html5:before { content: $fruit-var-html5; }
+.#{$fruit-css-prefix}-css3:before { content: $fruit-var-css3; }
+.#{$fruit-css-prefix}-anchor:before { content: $fruit-var-anchor; }
+.#{$fruit-css-prefix}-unlock-alt:before { content: $fruit-var-unlock-alt; }
+.#{$fruit-css-prefix}-bullseye:before { content: $fruit-var-bullseye; }
+.#{$fruit-css-prefix}-ellipsis-h:before { content: $fruit-var-ellipsis-h; }
+.#{$fruit-css-prefix}-ellipsis-v:before { content: $fruit-var-ellipsis-v; }
+.#{$fruit-css-prefix}-rss-square:before { content: $fruit-var-rss-square; }
+.#{$fruit-css-prefix}-play-circle:before { content: $fruit-var-play-circle; }
+.#{$fruit-css-prefix}-ticket:before { content: $fruit-var-ticket; }
+.#{$fruit-css-prefix}-minus-square:before { content: $fruit-var-minus-square; }
+.#{$fruit-css-prefix}-minus-square-o:before { content: $fruit-var-minus-square-o; }
+.#{$fruit-css-prefix}-level-up:before { content: $fruit-var-level-up; }
+.#{$fruit-css-prefix}-level-down:before { content: $fruit-var-level-down; }
+.#{$fruit-css-prefix}-check-square:before { content: $fruit-var-check-square; }
+.#{$fruit-css-prefix}-pencil-square:before { content: $fruit-var-pencil-square; }
+.#{$fruit-css-prefix}-external-link-square:before { content: $fruit-var-external-link-square; }
+.#{$fruit-css-prefix}-share-square:before { content: $fruit-var-share-square; }
+.#{$fruit-css-prefix}-compass:before { content: $fruit-var-compass; }
+.#{$fruit-css-prefix}-toggle-down:before,
+.#{$fruit-css-prefix}-caret-square-o-down:before { content: $fruit-var-caret-square-o-down; }
+.#{$fruit-css-prefix}-toggle-up:before,
+.#{$fruit-css-prefix}-caret-square-o-up:before { content: $fruit-var-caret-square-o-up; }
+.#{$fruit-css-prefix}-toggle-right:before,
+.#{$fruit-css-prefix}-caret-square-o-right:before { content: $fruit-var-caret-square-o-right; }
+.#{$fruit-css-prefix}-euro:before,
+.#{$fruit-css-prefix}-eur:before { content: $fruit-var-eur; }
+.#{$fruit-css-prefix}-gbp:before { content: $fruit-var-gbp; }
+.#{$fruit-css-prefix}-dollar:before,
+.#{$fruit-css-prefix}-usd:before { content: $fruit-var-usd; }
+.#{$fruit-css-prefix}-rupee:before,
+.#{$fruit-css-prefix}-inr:before { content: $fruit-var-inr; }
+.#{$fruit-css-prefix}-cny:before,
+.#{$fruit-css-prefix}-rmb:before,
+.#{$fruit-css-prefix}-yen:before,
+.#{$fruit-css-prefix}-jpy:before { content: $fruit-var-jpy; }
+.#{$fruit-css-prefix}-ruble:before,
+.#{$fruit-css-prefix}-rouble:before,
+.#{$fruit-css-prefix}-rub:before { content: $fruit-var-rub; }
+.#{$fruit-css-prefix}-won:before,
+.#{$fruit-css-prefix}-krw:before { content: $fruit-var-krw; }
+.#{$fruit-css-prefix}-bitcoin:before,
+.#{$fruit-css-prefix}-btc:before { content: $fruit-var-btc; }
+.#{$fruit-css-prefix}-file:before { content: $fruit-var-file; }
+.#{$fruit-css-prefix}-file-text:before { content: $fruit-var-file-text; }
+.#{$fruit-css-prefix}-sort-alpha-asc:before { content: $fruit-var-sort-alpha-asc; }
+.#{$fruit-css-prefix}-sort-alpha-desc:before { content: $fruit-var-sort-alpha-desc; }
+.#{$fruit-css-prefix}-sort-amount-asc:before { content: $fruit-var-sort-amount-asc; }
+.#{$fruit-css-prefix}-sort-amount-desc:before { content: $fruit-var-sort-amount-desc; }
+.#{$fruit-css-prefix}-sort-numeric-asc:before { content: $fruit-var-sort-numeric-asc; }
+.#{$fruit-css-prefix}-sort-numeric-desc:before { content: $fruit-var-sort-numeric-desc; }
+.#{$fruit-css-prefix}-thumbs-up:before { content: $fruit-var-thumbs-up; }
+.#{$fruit-css-prefix}-thumbs-down:before { content: $fruit-var-thumbs-down; }
+.#{$fruit-css-prefix}-youtube-square:before { content: $fruit-var-youtube-square; }
+.#{$fruit-css-prefix}-youtube:before { content: $fruit-var-youtube; }
+.#{$fruit-css-prefix}-xing:before { content: $fruit-var-xing; }
+.#{$fruit-css-prefix}-xing-square:before { content: $fruit-var-xing-square; }
+.#{$fruit-css-prefix}-youtube-play:before { content: $fruit-var-youtube-play; }
+.#{$fruit-css-prefix}-dropbox:before { content: $fruit-var-dropbox; }
+.#{$fruit-css-prefix}-stack-overflow:before { content: $fruit-var-stack-overflow; }
+.#{$fruit-css-prefix}-instagram:before { content: $fruit-var-instagram; }
+.#{$fruit-css-prefix}-flickr:before { content: $fruit-var-flickr; }
+.#{$fruit-css-prefix}-adn:before { content: $fruit-var-adn; }
+.#{$fruit-css-prefix}-bitbucket:before { content: $fruit-var-bitbucket; }
+.#{$fruit-css-prefix}-bitbucket-square:before { content: $fruit-var-bitbucket-square; }
+.#{$fruit-css-prefix}-tumblr:before { content: $fruit-var-tumblr; }
+.#{$fruit-css-prefix}-tumblr-square:before { content: $fruit-var-tumblr-square; }
+.#{$fruit-css-prefix}-long-arrow-down:before { content: $fruit-var-long-arrow-down; }
+.#{$fruit-css-prefix}-long-arrow-up:before { content: $fruit-var-long-arrow-up; }
+.#{$fruit-css-prefix}-long-arrow-left:before { content: $fruit-var-long-arrow-left; }
+.#{$fruit-css-prefix}-long-arrow-right:before { content: $fruit-var-long-arrow-right; }
+.#{$fruit-css-prefix}-apple:before { content: $fruit-var-apple; }
+.#{$fruit-css-prefix}-windows:before { content: $fruit-var-windows; }
+.#{$fruit-css-prefix}-android:before { content: $fruit-var-android; }
+.#{$fruit-css-prefix}-linux:before { content: $fruit-var-linux; }
+.#{$fruit-css-prefix}-dribbble:before { content: $fruit-var-dribbble; }
+.#{$fruit-css-prefix}-skype:before { content: $fruit-var-skype; }
+.#{$fruit-css-prefix}-foursquare:before { content: $fruit-var-foursquare; }
+.#{$fruit-css-prefix}-trello:before { content: $fruit-var-trello; }
+.#{$fruit-css-prefix}-female:before { content: $fruit-var-female; }
+.#{$fruit-css-prefix}-male:before { content: $fruit-var-male; }
+.#{$fruit-css-prefix}-gittip:before,
+.#{$fruit-css-prefix}-gratipay:before { content: $fruit-var-gratipay; }
+.#{$fruit-css-prefix}-sun-o:before { content: $fruit-var-sun-o; }
+.#{$fruit-css-prefix}-moon-o:before { content: $fruit-var-moon-o; }
+.#{$fruit-css-prefix}-archive:before { content: $fruit-var-archive; }
+.#{$fruit-css-prefix}-bug:before { content: $fruit-var-bug; }
+.#{$fruit-css-prefix}-vk:before { content: $fruit-var-vk; }
+.#{$fruit-css-prefix}-weibo:before { content: $fruit-var-weibo; }
+.#{$fruit-css-prefix}-renren:before { content: $fruit-var-renren; }
+.#{$fruit-css-prefix}-pagelines:before { content: $fruit-var-pagelines; }
+.#{$fruit-css-prefix}-stack-exchange:before { content: $fruit-var-stack-exchange; }
+.#{$fruit-css-prefix}-arrow-circle-o-right:before { content: $fruit-var-arrow-circle-o-right; }
+.#{$fruit-css-prefix}-arrow-circle-o-left:before { content: $fruit-var-arrow-circle-o-left; }
+.#{$fruit-css-prefix}-toggle-left:before,
+.#{$fruit-css-prefix}-caret-square-o-left:before { content: $fruit-var-caret-square-o-left; }
+.#{$fruit-css-prefix}-dot-circle-o:before { content: $fruit-var-dot-circle-o; }
+.#{$fruit-css-prefix}-wheelchair:before { content: $fruit-var-wheelchair; }
+.#{$fruit-css-prefix}-vimeo-square:before { content: $fruit-var-vimeo-square; }
+.#{$fruit-css-prefix}-turkish-lira:before,
+.#{$fruit-css-prefix}-try:before { content: $fruit-var-try; }
+.#{$fruit-css-prefix}-plus-square-o:before { content: $fruit-var-plus-square-o; }
+.#{$fruit-css-prefix}-space-shuttle:before { content: $fruit-var-space-shuttle; }
+.#{$fruit-css-prefix}-slack:before { content: $fruit-var-slack; }
+.#{$fruit-css-prefix}-envelope-square:before { content: $fruit-var-envelope-square; }
+.#{$fruit-css-prefix}-wordpress:before { content: $fruit-var-wordpress; }
+.#{$fruit-css-prefix}-openid:before { content: $fruit-var-openid; }
+.#{$fruit-css-prefix}-institution:before,
+.#{$fruit-css-prefix}-bank:before,
+.#{$fruit-css-prefix}-university:before { content: $fruit-var-university; }
+.#{$fruit-css-prefix}-mortar-board:before,
+.#{$fruit-css-prefix}-graduation-cap:before { content: $fruit-var-graduation-cap; }
+.#{$fruit-css-prefix}-yahoo:before { content: $fruit-var-yahoo; }
+.#{$fruit-css-prefix}-google:before { content: $fruit-var-google; }
+.#{$fruit-css-prefix}-reddit:before { content: $fruit-var-reddit; }
+.#{$fruit-css-prefix}-reddit-square:before { content: $fruit-var-reddit-square; }
+.#{$fruit-css-prefix}-stumbleupon-circle:before { content: $fruit-var-stumbleupon-circle; }
+.#{$fruit-css-prefix}-stumbleupon:before { content: $fruit-var-stumbleupon; }
+.#{$fruit-css-prefix}-delicious:before { content: $fruit-var-delicious; }
+.#{$fruit-css-prefix}-digg:before { content: $fruit-var-digg; }
+.#{$fruit-css-prefix}-pied-piper:before { content: $fruit-var-pied-piper; }
+.#{$fruit-css-prefix}-pied-piper-alt:before { content: $fruit-var-pied-piper-alt; }
+.#{$fruit-css-prefix}-drupal:before { content: $fruit-var-drupal; }
+.#{$fruit-css-prefix}-joomla:before { content: $fruit-var-joomla; }
+.#{$fruit-css-prefix}-language:before { content: $fruit-var-language; }
+.#{$fruit-css-prefix}-fax:before { content: $fruit-var-fax; }
+.#{$fruit-css-prefix}-building:before { content: $fruit-var-building; }
+.#{$fruit-css-prefix}-child:before { content: $fruit-var-child; }
+.#{$fruit-css-prefix}-paw:before { content: $fruit-var-paw; }
+.#{$fruit-css-prefix}-spoon:before { content: $fruit-var-spoon; }
+.#{$fruit-css-prefix}-cube:before { content: $fruit-var-cube; }
+.#{$fruit-css-prefix}-cubes:before { content: $fruit-var-cubes; }
+.#{$fruit-css-prefix}-behance:before { content: $fruit-var-behance; }
+.#{$fruit-css-prefix}-behance-square:before { content: $fruit-var-behance-square; }
+.#{$fruit-css-prefix}-steam:before { content: $fruit-var-steam; }
+.#{$fruit-css-prefix}-steam-square:before { content: $fruit-var-steam-square; }
+.#{$fruit-css-prefix}-recycle:before { content: $fruit-var-recycle; }
+.#{$fruit-css-prefix}-automobile:before,
+.#{$fruit-css-prefix}-car:before { content: $fruit-var-car; }
+.#{$fruit-css-prefix}-cab:before,
+.#{$fruit-css-prefix}-taxi:before { content: $fruit-var-taxi; }
+.#{$fruit-css-prefix}-tree:before { content: $fruit-var-tree; }
+.#{$fruit-css-prefix}-spotify:before { content: $fruit-var-spotify; }
+.#{$fruit-css-prefix}-deviantart:before { content: $fruit-var-deviantart; }
+.#{$fruit-css-prefix}-soundcloud:before { content: $fruit-var-soundcloud; }
+.#{$fruit-css-prefix}-database:before { content: $fruit-var-database; }
+.#{$fruit-css-prefix}-file-pdf-o:before { content: $fruit-var-file-pdf-o; }
+.#{$fruit-css-prefix}-file-word-o:before { content: $fruit-var-file-word-o; }
+.#{$fruit-css-prefix}-file-excel-o:before { content: $fruit-var-file-excel-o; }
+.#{$fruit-css-prefix}-file-powerpoint-o:before { content: $fruit-var-file-powerpoint-o; }
+.#{$fruit-css-prefix}-file-photo-o:before,
+.#{$fruit-css-prefix}-file-picture-o:before,
+.#{$fruit-css-prefix}-file-image-o:before { content: $fruit-var-file-image-o; }
+.#{$fruit-css-prefix}-file-zip-o:before,
+.#{$fruit-css-prefix}-file-archive-o:before { content: $fruit-var-file-archive-o; }
+.#{$fruit-css-prefix}-file-sound-o:before,
+.#{$fruit-css-prefix}-file-audio-o:before { content: $fruit-var-file-audio-o; }
+.#{$fruit-css-prefix}-file-movie-o:before,
+.#{$fruit-css-prefix}-file-video-o:before { content: $fruit-var-file-video-o; }
+.#{$fruit-css-prefix}-file-code-o:before { content: $fruit-var-file-code-o; }
+.#{$fruit-css-prefix}-vine:before { content: $fruit-var-vine; }
+.#{$fruit-css-prefix}-codepen:before { content: $fruit-var-codepen; }
+.#{$fruit-css-prefix}-jsfiddle:before { content: $fruit-var-jsfiddle; }
+.#{$fruit-css-prefix}-life-bouy:before,
+.#{$fruit-css-prefix}-life-buoy:before,
+.#{$fruit-css-prefix}-life-saver:before,
+.#{$fruit-css-prefix}-support:before,
+.#{$fruit-css-prefix}-life-ring:before { content: $fruit-var-life-ring; }
+.#{$fruit-css-prefix}-circle-o-notch:before { content: $fruit-var-circle-o-notch; }
+.#{$fruit-css-prefix}-ra:before,
+.#{$fruit-css-prefix}-rebel:before { content: $fruit-var-rebel; }
+.#{$fruit-css-prefix}-ge:before,
+.#{$fruit-css-prefix}-empire:before { content: $fruit-var-empire; }
+.#{$fruit-css-prefix}-git-square:before { content: $fruit-var-git-square; }
+.#{$fruit-css-prefix}-git:before { content: $fruit-var-git; }
+.#{$fruit-css-prefix}-hacker-news:before { content: $fruit-var-hacker-news; }
+.#{$fruit-css-prefix}-tencent-weibo:before { content: $fruit-var-tencent-weibo; }
+.#{$fruit-css-prefix}-qq:before { content: $fruit-var-qq; }
+.#{$fruit-css-prefix}-wechat:before,
+.#{$fruit-css-prefix}-weixin:before { content: $fruit-var-weixin; }
+.#{$fruit-css-prefix}-send:before,
+.#{$fruit-css-prefix}-paper-plane:before { content: $fruit-var-paper-plane; }
+.#{$fruit-css-prefix}-send-o:before,
+.#{$fruit-css-prefix}-paper-plane-o:before { content: $fruit-var-paper-plane-o; }
+.#{$fruit-css-prefix}-history:before { content: $fruit-var-history; }
+.#{$fruit-css-prefix}-genderless:before,
+.#{$fruit-css-prefix}-circle-thin:before { content: $fruit-var-circle-thin; }
+.#{$fruit-css-prefix}-header:before { content: $fruit-var-header; }
+.#{$fruit-css-prefix}-paragraph:before { content: $fruit-var-paragraph; }
+.#{$fruit-css-prefix}-sliders:before { content: $fruit-var-sliders; }
+.#{$fruit-css-prefix}-share-alt:before { content: $fruit-var-share-alt; }
+.#{$fruit-css-prefix}-share-alt-square:before { content: $fruit-var-share-alt-square; }
+.#{$fruit-css-prefix}-bomb:before { content: $fruit-var-bomb; }
+.#{$fruit-css-prefix}-soccer-ball-o:before,
+.#{$fruit-css-prefix}-futbol-o:before { content: $fruit-var-futbol-o; }
+.#{$fruit-css-prefix}-tty:before { content: $fruit-var-tty; }
+.#{$fruit-css-prefix}-binoculars:before { content: $fruit-var-binoculars; }
+.#{$fruit-css-prefix}-plug:before { content: $fruit-var-plug; }
+.#{$fruit-css-prefix}-slideshare:before { content: $fruit-var-slideshare; }
+.#{$fruit-css-prefix}-twitch:before { content: $fruit-var-twitch; }
+.#{$fruit-css-prefix}-yelp:before { content: $fruit-var-yelp; }
+.#{$fruit-css-prefix}-newspaper-o:before { content: $fruit-var-newspaper-o; }
+.#{$fruit-css-prefix}-wifi:before { content: $fruit-var-wifi; }
+.#{$fruit-css-prefix}-calculator:before { content: $fruit-var-calculator; }
+.#{$fruit-css-prefix}-paypal:before { content: $fruit-var-paypal; }
+.#{$fruit-css-prefix}-google-wallet:before { content: $fruit-var-google-wallet; }
+.#{$fruit-css-prefix}-cc-visa:before { content: $fruit-var-cc-visa; }
+.#{$fruit-css-prefix}-cc-mastercard:before { content: $fruit-var-cc-mastercard; }
+.#{$fruit-css-prefix}-cc-discover:before { content: $fruit-var-cc-discover; }
+.#{$fruit-css-prefix}-cc-amex:before { content: $fruit-var-cc-amex; }
+.#{$fruit-css-prefix}-cc-paypal:before { content: $fruit-var-cc-paypal; }
+.#{$fruit-css-prefix}-cc-stripe:before { content: $fruit-var-cc-stripe; }
+.#{$fruit-css-prefix}-bell-slash:before { content: $fruit-var-bell-slash; }
+.#{$fruit-css-prefix}-bell-slash-o:before { content: $fruit-var-bell-slash-o; }
+.#{$fruit-css-prefix}-trash:before { content: $fruit-var-trash; }
+.#{$fruit-css-prefix}-copyright:before { content: $fruit-var-copyright; }
+.#{$fruit-css-prefix}-at:before { content: $fruit-var-at; }
+.#{$fruit-css-prefix}-eyedropper:before { content: $fruit-var-eyedropper; }
+.#{$fruit-css-prefix}-paint-brush:before { content: $fruit-var-paint-brush; }
+.#{$fruit-css-prefix}-birthday-cake:before { content: $fruit-var-birthday-cake; }
+.#{$fruit-css-prefix}-area-chart:before { content: $fruit-var-area-chart; }
+.#{$fruit-css-prefix}-pie-chart:before { content: $fruit-var-pie-chart; }
+.#{$fruit-css-prefix}-line-chart:before { content: $fruit-var-line-chart; }
+.#{$fruit-css-prefix}-lastfm:before { content: $fruit-var-lastfm; }
+.#{$fruit-css-prefix}-lastfm-square:before { content: $fruit-var-lastfm-square; }
+.#{$fruit-css-prefix}-toggle-off:before { content: $fruit-var-toggle-off; }
+.#{$fruit-css-prefix}-toggle-on:before { content: $fruit-var-toggle-on; }
+.#{$fruit-css-prefix}-bicycle:before { content: $fruit-var-bicycle; }
+.#{$fruit-css-prefix}-bus:before { content: $fruit-var-bus; }
+.#{$fruit-css-prefix}-ioxhost:before { content: $fruit-var-ioxhost; }
+.#{$fruit-css-prefix}-angellist:before { content: $fruit-var-angellist; }
+.#{$fruit-css-prefix}-cc:before { content: $fruit-var-cc; }
+.#{$fruit-css-prefix}-shekel:before,
+.#{$fruit-css-prefix}-sheqel:before,
+.#{$fruit-css-prefix}-ils:before { content: $fruit-var-ils; }
+.#{$fruit-css-prefix}-meanpath:before { content: $fruit-var-meanpath; }
+.#{$fruit-css-prefix}-buysellads:before { content: $fruit-var-buysellads; }
+.#{$fruit-css-prefix}-connectdevelop:before { content: $fruit-var-connectdevelop; }
+.#{$fruit-css-prefix}-dashcube:before { content: $fruit-var-dashcube; }
+.#{$fruit-css-prefix}-forumbee:before { content: $fruit-var-forumbee; }
+.#{$fruit-css-prefix}-leanpub:before { content: $fruit-var-leanpub; }
+.#{$fruit-css-prefix}-sellsy:before { content: $fruit-var-sellsy; }
+.#{$fruit-css-prefix}-shirtsinbulk:before { content: $fruit-var-shirtsinbulk; }
+.#{$fruit-css-prefix}-simplybuilt:before { content: $fruit-var-simplybuilt; }
+.#{$fruit-css-prefix}-skyatlas:before { content: $fruit-var-skyatlas; }
+.#{$fruit-css-prefix}-cart-plus:before { content: $fruit-var-cart-plus; }
+.#{$fruit-css-prefix}-cart-arrow-down:before { content: $fruit-var-cart-arrow-down; }
+.#{$fruit-css-prefix}-diamond:before { content: $fruit-var-diamond; }
+.#{$fruit-css-prefix}-ship:before { content: $fruit-var-ship; }
+.#{$fruit-css-prefix}-user-secret:before { content: $fruit-var-user-secret; }
+.#{$fruit-css-prefix}-motorcycle:before { content: $fruit-var-motorcycle; }
+.#{$fruit-css-prefix}-street-view:before { content: $fruit-var-street-view; }
+.#{$fruit-css-prefix}-heartbeat:before { content: $fruit-var-heartbeat; }
+.#{$fruit-css-prefix}-venus:before { content: $fruit-var-venus; }
+.#{$fruit-css-prefix}-mars:before { content: $fruit-var-mars; }
+.#{$fruit-css-prefix}-mercury:before { content: $fruit-var-mercury; }
+.#{$fruit-css-prefix}-transgender:before { content: $fruit-var-transgender; }
+.#{$fruit-css-prefix}-transgender-alt:before { content: $fruit-var-transgender-alt; }
+.#{$fruit-css-prefix}-venus-double:before { content: $fruit-var-venus-double; }
+.#{$fruit-css-prefix}-mars-double:before { content: $fruit-var-mars-double; }
+.#{$fruit-css-prefix}-venus-mars:before { content: $fruit-var-venus-mars; }
+.#{$fruit-css-prefix}-mars-stroke:before { content: $fruit-var-mars-stroke; }
+.#{$fruit-css-prefix}-mars-stroke-v:before { content: $fruit-var-mars-stroke-v; }
+.#{$fruit-css-prefix}-mars-stroke-h:before { content: $fruit-var-mars-stroke-h; }
+.#{$fruit-css-prefix}-neuter:before { content: $fruit-var-neuter; }
+.#{$fruit-css-prefix}-facebook-official:before { content: $fruit-var-facebook-official; }
+.#{$fruit-css-prefix}-pinterest-p:before { content: $fruit-var-pinterest-p; }
+.#{$fruit-css-prefix}-whatsapp:before { content: $fruit-var-whatsapp; }
+.#{$fruit-css-prefix}-server:before { content: $fruit-var-server; }
+.#{$fruit-css-prefix}-user-plus:before { content: $fruit-var-user-plus; }
+.#{$fruit-css-prefix}-user-times:before { content: $fruit-var-user-times; }
+.#{$fruit-css-prefix}-hotel:before,
+.#{$fruit-css-prefix}-bed:before { content: $fruit-var-bed; }
+.#{$fruit-css-prefix}-viacoin:before { content: $fruit-var-viacoin; }
+.#{$fruit-css-prefix}-train:before { content: $fruit-var-train; }
+.#{$fruit-css-prefix}-subway:before { content: $fruit-var-subway; }
+.#{$fruit-css-prefix}-medium:before { content: $fruit-var-medium; }

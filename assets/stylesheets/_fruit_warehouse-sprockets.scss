@@ -1,0 +1,5 @@
+@function fruit-font-path($path) {
+  @return font-path($path);
+}
+
+$fruit-sass-asset-helper: true;

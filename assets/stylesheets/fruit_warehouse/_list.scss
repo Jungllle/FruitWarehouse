@@ -1,0 +1,19 @@
+// List Icons
+// -------------------------
+
+.#{$fruit-css-prefix}-ul {
+  padding-left: 0;
+  margin-left: $fruit-li-width;
+  list-style-type: none;
+  > li { position: relative; }
+}
+.#{$fruit-css-prefix}-li {
+  position: absolute;
+  left: -$fruit-li-width;
+  width: $fruit-li-width;
+  top: (2em / 14);
+  text-align: center;
+  &.#{$fruit-css-prefix}-lg {
+    left: -$fruit-li-width + (4em / 14);
+  }
+}

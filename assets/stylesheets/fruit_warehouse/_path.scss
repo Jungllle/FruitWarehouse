@@ -1,0 +1,14 @@
+/* FONT PATH
+ * -------------------------- */
+
+@font-face {
+  font-family: 'FruitWarehouse';
+  src: url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.eot'), '#{$fruit-font-path}#{$fruit-font-name}.eot'));
+  src: url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.eot?#iefix'), '#{$fruit-font-path}#{$fruit-font-name}.eot?#iefix')) format('embedded-opentype'),
+    url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.woff2'), '#{$fruit-font-path}#{$fruit-font-name}.woff2')) format('woff2'),
+    url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.woff'), '#{$fruit-font-path}#{$fruit-font-name}.woff')) format('woff'),
+    url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.ttf'), '#{$fruit-font-path}#{$fruit-font-name}.ttf')) format('truetype'),
+    url(if($fruit-sass-asset-helper, fruit-font-path('#{$fruit-font-path}#{$fruit-font-name}.svg#fruitwarehouseregular'), '#{$fruit-font-path}#{$fruit-font-name}.svg#fruitwarehouseregular')) format('svg');
+  font-weight: normal;
+  font-style: normal;
+}

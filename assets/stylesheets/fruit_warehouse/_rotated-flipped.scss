@@ -1,0 +1,20 @@
+// Rotated & Flipped Icons
+// -------------------------
+
+.#{$fruit-css-prefix}-rotate-90  { @include fruit-icon-rotate(90deg, 1);  }
+.#{$fruit-css-prefix}-rotate-180 { @include fruit-icon-rotate(180deg, 2); }
+.#{$fruit-css-prefix}-rotate-270 { @include fruit-icon-rotate(270deg, 3); }
+
+.#{$fruit-css-prefix}-flip-horizontal { @include fruit-icon-flip(-1, 1, 0); }
+.#{$fruit-css-prefix}-flip-vertical   { @include fruit-icon-flip(1, -1, 2); }
+
+// Hook for IE8-9
+// -------------------------
+
+:root .#{$fruit-css-prefix}-rotate-90,
+:root .#{$fruit-css-prefix}-rotate-180,
+:root .#{$fruit-css-prefix}-rotate-270,
+:root .#{$fruit-css-prefix}-flip-horizontal,
+:root .#{$fruit-css-prefix}-flip-vertical {
+  filter: none;
+}

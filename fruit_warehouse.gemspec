@@ -10,7 +10,7 @@ Gem::Specification.new do |spec|
   spec.email         = ["garylai1990@gmail.com"]
 
   spec.summary       = %q{Fruit Icons!}
-  spec.description   = %q{Fruit Icons!}
+  spec.description   = %q{Give me a banana, I'll give you a monkey.}
   spec.homepage      = "https://github.com/Jungllle/FruitWarehouse"
   spec.license       = "MIT"
 
@@ -32,6 +32,6 @@ Gem::Specification.new do |spec|
   spec.add_development_dependency "bundler", "~> 1.9"
   spec.add_development_dependency "rake", "~> 10.0"
 
-  spec.add_development_dependency 'sass-rails'
-  spec.add_development_dependency 'compass'
+  spec.add_development_dependency 'sass-rails', '~> 5'
+  spec.add_development_dependency 'compass', '~> 1'
 end

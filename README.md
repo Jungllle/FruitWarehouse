@@ -1,6 +1,6 @@
 # FruitWarehouse
 
-This idea is from [fruit_warehouse](http://github.com/https://github.com/FortAwesome)!
+This idea is from [FontAwesome](http://github.com/FontAwesome)!
 
 Fruit Warehouse is a set of fruit icons. This gem support Ruby projects and Ruby on Rails projects with Compass, Sprocket, etc.
 

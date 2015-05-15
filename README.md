@@ -1,12 +1,19 @@
 # FruitWarehouse
 
-Welcome to your new gem! In this directory, you'll find the files you need to be able to package up your Ruby library into a gem. Put your Ruby code in the file `lib/fruit_warehouse`. To experiment with that code, run `bin/console` for an interactive prompt.
+This idea is from [fruit_warehouse](http://github.com/https://github.com/FortAwesome)!
 
-TODO: Delete this and the text above, and describe your gem
+Fruit Warehouse is a set of fruit icons. This gem support Ruby projects and Ruby on Rails projects with Compass, Sprocket, etc.
 
 ## Installation
 
-Add this line to your application's Gemfile:
+Please see the appropriate guide for your environment of choice:
+
+* [Ruby on Rails](#a-ruby-on-rails).
+* [Compass](#b-compass-without-rails) not on Rails.
+
+### a. Ruby on Rails
+
+In your Gemfile include:
 
 ```ruby
 gem 'fruit_warehouse'
@@ -14,25 +21,64 @@ gem 'fruit_warehouse'
 
 And then execute:
 
-    $ bundle
+```sh
+bundle install
+```
 
-Or install it yourself as:
+Import the FruitWarehouse styles in your `app/assets/stylesheets/application.css.scss`. The `fruit_warehouse-sprockets` file
+includes the sprockets assets helper Sass functions used for finding the proper path to the font file.
 
-    $ gem install fruit_warehouse
+```scss
+@import "fruit_warehouse-sprockets";
+@import "fruit_warehouse";
+```
 
-## Usage
+#### Rails Helper usage
 
-TODO: Write usage instructions here
+In your view:
 
-## Development
+```ruby
+fruit('flag')
+# => <i class="fa fa-flag"></i>
+```
 
-After checking out the repo, run `bin/setup` to install dependencies. Then, run `bin/console` for an interactive prompt that will allow you to experiment.
+```ruby
+fruit('flag', '', class: 'strong')
+# => <i class="fa fa-flag strong"></i>
+```
 
-To install this gem onto your local machine, run `bundle exec rake install`. To release a new version, update the version number in `version.rb`, and then run `bundle exec rake release` to create a git tag for the version, push git commits and tags, and push the `.gem` file to [rubygems.org](https://rubygems.org).
+```ruby
+fruit('flag', 'Font Awesome', id: 'my-icon', class: 'strong')
+# => <i id="my-icon" class="fa fa-flag strong"></i> Font Awesome
+```
+
+Note: the icon helper can take a hash of options that will be passed to the content_tag helper
+
+### b. Compass without Rails
+
+Install the gem
+
+```sh
+gem install fruit_warehouse
+```
+
+If you have an existing Compass project:
+
+```ruby
+# config.rb:
+require 'fruit_warehouse'
+```
+
+Import the FruitWarehouse styles
+
+```scss
+@import "fruit_warehouse-compass";
+@import "fruit_warehouse";
+```
 
 ## Contributing
 
-1. Fork it ( https://github.com/[my-github-username]/fruit_warehouse/fork )
+1. Fork it ( https://github.com/jungllle/fruit_warehouse/fork )
 2. Create your feature branch (`git checkout -b my-new-feature`)
 3. Commit your changes (`git commit -am 'Add some feature'`)
 4. Push to the branch (`git push origin my-new-feature`)

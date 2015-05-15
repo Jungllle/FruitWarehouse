@@ -1,5 +1,5 @@
 source: src
-destination: _gh_pages
+destination: _site
 
 title: Fruit Warehouse
 description: Give me a banana, I'll give you a monkey.

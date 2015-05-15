@@ -1,5 +1,8 @@
 source: src
 destination: _gh_pages
 
-title: Fruit Warehouse - Jungllle
+title: Fruit Warehouse
 description: Give me a banana, I'll give you a monkey.
+
+
+markdown: kramdown

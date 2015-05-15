@@ -2,7 +2,7 @@ source: src
 destination: _site
 
 title: Fruit Warehouse
-description: Give me a banana, I'll give you a monkey.
+description: Give me a banana. I'll give you a monkey.
 
 baseurl: "/FruitWarehouse/"
 url: "http://jungllle.github.io"

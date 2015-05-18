@@ -12,10 +12,15 @@ ul, ol, dl, figure,
 
 
 .fruit-jumbotron {
-  background-color: yellow;
+  background-image: url("/FruitWarehouse/images/cover.jpg");
+  background-size: cover;
+  background-position: center;
+  min-height: 350px;
   .fruit-description {
     padding: 50px 0;
-    font-size: 48px;
+  }
+  .monkey {
+
   }
 }
 

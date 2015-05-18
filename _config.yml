@@ -8,3 +8,6 @@ baseurl: "/FruitWarehouse/"
 url: "http://jungllle.github.io"
 
 markdown: kramdown
+
+sass:
+  style: :compressed

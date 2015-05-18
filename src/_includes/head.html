@@ -12,9 +12,14 @@
   </title>
   <link rel="icon" href="{{ site.baseurl }}{{ "images/favicon.ico" }}" type="image/x-icon"/>
   <meta name="description" content="{% if page.excerpt %}{{ page.excerpt | strip_html | strip_newlines | truncate: 160 }}{% else %}{{ site.description }}{% endif %}">
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/css/bootstrap.min.css">
-  <link rel="stylesheet" href="{{ site.baseurl }}{{ "css/application.css" }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ "stylesheets/styles.css" }}">
+  <link rel="stylesheet" href="{{ site.baseurl }}{{ "stylesheets/application.css" }}">
   <script src="//ajax.googleapis.com/ajax/libs/jquery/2.1.3/jquery.min.js"></script>
-  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.4/js/bootstrap.min.js"></script>
-
+  <script src="{{ site.baseurl }}{{ "javascripts/bootstrap-sprockets.js" }}"></script>
+  <script src="{{ site.baseurl }}{{ "javascripts/bootstrap.js" }}"></script>
+  <meta property="og:title" content="{{ site.title }}" />
+  <meta property="og:type" content="website" />
+  <meta property="og:image" content="{{ site.url }}{{ site.baseurl }}{{ "images/og.png" }}" />
+  <meta property="og:url" content="{{ site.url }}" />
+  <meta property="og:description" content="{{ site.description }}" />
 </head>

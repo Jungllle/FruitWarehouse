@@ -2,13 +2,18 @@
 layout: default
 ---
 <div class="fruit-jumbotron text-center">
-  <div class="fruit-description">
-    {{ site.description }}
+  <div class="col-sm-4">
+    <img src="{{ site.baseurl }}{{ "images/monkey.gif" }}" class="img-responsive">
+  </div>
+  <div class="col-sm-8 fruit-description">
+    <h1>
+      Give me a banana. <br>
+      I'll give you a monkey.
+    </h1>
   </div>
   <iframe src="https://ghbtns.com/github-btn.html?user=Jungllle&repo=FruitWarehouse&type=star&count=true&size=large" frameborder="0" scrolling="0" width="160px" height="30px"></iframe>
   <iframe src="https://ghbtns.com/github-btn.html?user=Jungllle&repo=FruitWarehouse&type=fork&count=true&size=large" frameborder="0" scrolling="0" width="158px" height="30px"></iframe>
 </div>
-
 
 <div class="container">
   <div class="col-xs-12">
@@ -21,9 +26,10 @@ layout: default
   </div>
   <div class="col-xs-12">
     <h2 id="example">Example</h2>
-    <i class="fruit fruit-2x fruit-apple"></i>
+    <div class="col-sm-3">
+      <i class="fruit fruit-2x fruit-apple"></i>
+    </div>
     <i class="fruit fruit-2x fruit-a-banana"></i>
-    <i class="fruit fruit-2x fruit-apple"></i>
     <i class="fruit fruit-2x fruit-banana"></i>
     <i class="fruit fruit-2x fruit-grape"></i>
     <i class="fruit fruit-2x fruit-lemon"></i>
